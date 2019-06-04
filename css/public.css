@@ -1,0 +1,139 @@
+.w1200{
+ width: 1200px;
+}
+header {
+    background: white;
+}
+header >.about{
+    height: 60px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+header >.about>.logo{
+    width: 44px;
+    height: 60px;
+}
+header >.about>h1{
+    font-size: 26px;
+    color: black;
+    line-height: 60px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+header >.about>.ads{
+    margin-left: 80px;
+}
+
+header>.about>.red-phone{
+    margin-left: 150px;
+    position: relative;
+}
+
+header>.about>.red-phone>h3{
+    position: absolute;
+    left: 66px;
+    width: 200px;
+    font-weight: bold;
+    top: 0;
+    color: #666;
+}
+header>.about>.red-phone>h2{
+    position: absolute;
+    left: 66px;
+    width: 200px;
+    top: 25px;
+    font-size: 26px;
+    color: black;
+}
+
+header>nav{
+    height: 50px;
+    background: black;
+}
+header>nav>section{
+    margin: 0 auto;
+    height: 100%;
+}
+
+header>nav>section>ul{
+    width: 100%;
+    height: 100%;
+}
+header>nav>section>ul>li{
+    float: left;
+}
+header>nav>section>ul>li:hover{
+    background: orange;
+   
+}
+header>nav>section>ul>li>a{
+    color: white;
+    height: 100%;
+    padding: 0 50px;
+    line-height:50px;
+}
+
+header>nav>section>ul>li>.active{
+    background: #2b2b2b;
+}
+
+
+footer{
+    height: 259px;
+    background: #2b2b2b;
+    position: relative;
+    padding-top: 16px;
+}
+footer>nav{
+    margin: 0 auto;
+}
+footer>nav>div{
+    margin: 16px 0;
+    margin-right: 120px;
+    width: 120px;
+}
+footer>nav>div>h2{
+    color: #888;
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px #484848 solid;
+}
+
+footer>nav>div>a{
+    color: #ccc;
+    height: 26px;
+    line-height: 26px;
+}
+
+footer>nav>.contact{
+    width: 444px;
+    margin-right: 0;
+}
+
+footer>nav>.contact>.wechat{
+    display: block;
+    font-size: 25px;
+    color: #ff9801;
+}
+footer>nav>.contact>.time{
+    display: block;
+    color: #666;
+    margin-top: 10px;
+}
+
+footer>.filing{
+    color: #666;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 60px;
+    text-align: center;
+    background: black;
+}
+footer>.filing>a{
+    display: inline-block;
+    color: white;
+}
